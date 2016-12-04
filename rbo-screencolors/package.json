@@ -1,0 +1,26 @@
+{
+  "name": "rbo-screencolors",
+  "version": "1.0.0",
+  "description": "Easily colorize cli and console output",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robododge/rbo-modules/rbo-screencolors"
+  },
+  "keywords": [
+    "cli",
+    "colors"
+  ],
+  "author": "Steve Dodge",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "x256": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
